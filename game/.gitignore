@@ -1,0 +1,193 @@
+# ================================
+# 🐍 Python специфичное
+# ================================
+
+# Байт-код Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Дистрибутивы и сборки
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# ================================
+# 🛠️ IDE и редакторы
+# ================================
+
+# PyCharm
+.idea/
+*.iml
+out/
+.idea_modules/
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/shelf
+.idea/.name
+.idea/copyright/
+.idea/scopes/
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+.idea/inspectionProfiles/
+.idea/jsLibraryMappings.xml
+.idea/datasources.xml
+.idea/dataSources.ids
+.idea/sqlDataSources.xml
+.idea/dynamic.xml
+.idea/uiDesigner.xml
+.idea/aws.xml
+.idea/git_toolbox_prj.xml
+
+# VSCode
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# Vim
+.*.swp
+.*.swo
+Session.vim
+.netrwhist
+tags
+
+# ================================
+# 🎮 ФАЙЛЫ ИГРЫ (ВАЖНО!)
+# ================================
+
+# Файлы сохранения игры - НЕ ЗАГРУЖАТЬ!
+savegame.json
+highscores.json
+
+# ================================
+# 🖥️ Операционные системы
+# ================================
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ================================
+# 📦 Временные файлы
+# ================================
+
+# Логи
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Временные файлы
+*.tmp
+*.temp
+*.swp
+\#*\#
+.#*
+*.backup
+
+# ================================
+# 🔐 Секреты и конфиденциальное
+# ================================
+
+# Файлы с паролями, ключами
+secrets.txt
+config.ini
+*.key
+*.pem
+*.crt
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ================================
+# 📁 Прочее
+# ================================
+
+# Директория для виртуального окружения (если используете)
+venv/
+env/
+ENV/
+
+# Файлы проекта (могут быть созданы некоторыми IDE)
+.project
+.classpath
+*.launch
+.settings/
+
+# Файлы миграций БД (если будете добавлять)
+migrations/
+
+# Профилировщик
+profile/
+
+# Файлы сортировки
+*.sorted
